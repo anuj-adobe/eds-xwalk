@@ -1,6 +1,5 @@
 {
   "mappings": [
-    "/content/anuj-eds-xwalk/:/",
-    "/content/anuj-eds-xwalk/index:/index"
+    "/content/eds-xwalk/:/"
   ]
 }
