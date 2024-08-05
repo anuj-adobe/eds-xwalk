@@ -1,6 +1,6 @@
 mountpoints:
   /:
-    url: "https://author-p137653-e1386691.adobeaemcloud.com/bin/franklin.delivery/anuj-adobe/eds-xwalk/main"
+    url: "https://author-p11055-e20059.adobeaemcloud.com/bin/franklin.delivery/anuj-adobe/eds-xwalk/main"
     type: "markup"
     suffix: ".html"
     
