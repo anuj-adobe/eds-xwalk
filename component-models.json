@@ -201,8 +201,16 @@
               "value": "centered"
           },
           {
-              "name": "centered-bg-color",
-              "value": "centered-bg-gray, centered-bg-black, centered-bg-white"
+              "name": "centered-bg-gray",
+              "value": "centered-bg-gray"
+          },
+          {
+             "name": "centered-bg-black",
+             "value": "centered-bg-black"
+          },
+          {
+             "name": "centered-bg-white",
+             "value": "centered-bg-white"
           }
         ]
       }
