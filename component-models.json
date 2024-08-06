@@ -183,6 +183,23 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "type",
+        "value": "fullwidth",
+        "label": "Type",
+        "valueType": "string",
+        "options": [
+          {
+              "name": "fullwidth",
+              "value": "fullwidth"
+          },
+          {
+              "name": "centered",
+              "value": "centered"
+          }
+        ]
       }
     ]
   },
