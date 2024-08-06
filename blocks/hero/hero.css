@@ -12,6 +12,29 @@ main .hero-container {
   min-height: 300px;
 }
 
+.hero.fullwidth {
+  margin-inline: 0;
+}
+
+.hero.centered,
+ .hero.centered-bg-gray,
+ .hero.centered-bg-black,
+ .hero.centered-bg-white {
+  margin-inline: 128px;
+}
+
+.hero.centered-bg-gray {
+  background-color: gray;
+}
+
+.hero.centered-bg-black {
+  background-color: black;
+}
+
+.hero.centered-bg-gray {
+  background-color: white;
+}
+
 .hero h1 {
   max-width: 1200px;
   margin-left: auto;

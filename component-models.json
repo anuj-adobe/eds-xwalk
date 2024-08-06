@@ -189,7 +189,7 @@
         "name": "classes",
         "value": "fullwidth",
         "label": "Variant",
-        "description": "Hero Block Variant",
+        "description": "Different variants for the hero section",
         "valueType": "string",
         "options": [
           {
@@ -199,6 +199,10 @@
           {
               "name": "centered",
               "value": "centered"
+          },
+          {
+              "name": "centered-bg-color",
+              "value": "centered-bg-gray, centered-bg-black, centered-bg-white"
           }
         ]
       }
