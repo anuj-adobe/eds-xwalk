@@ -29,9 +29,9 @@ main .hero-wrapper:has(.centered-section-white) {
 }
 
 .hero.centered,
- .hero.centered-bg-gray,
- .hero.centered-bg-black,
- .hero.centered-bg-white {
+ .hero.centered-section-gray,
+ .hero.centered-section-black,
+ .hero.centered-section-white {
   margin-inline: 128px;
 }
 
