@@ -6,20 +6,20 @@ main .hero-container {
   padding-block: 0;
 }
 
-main .hero-container:has(.fullwidth) {
-  padding-inline: 0;
-}
-
-main .hero-wrapper:has(.centered-section-gray) {
+main .hero-container:has(.centered-section-gray) {
   background-color: var(--light-color);
 }
 
-main .hero-wrapper:has(.centered-section-black) {
+main .hero-container:has(.centered-section-black) {
   background-color: black;
 }
 
-main .hero-wrapper:has(.centered-section-white) {
+main .hero-container:has(.centered-section-white) {
   background-color: white;
+}
+
+main .hero-container:has(.fullwidth) {
+  padding-inline: 0;
 }
 
 .hero {
