@@ -1,9 +1,13 @@
-main .hero-container > div {
+main .hero-container > div:has(.fullwidth) {
   max-width: unset;
 }
 
 main .hero-container {
-  padding: 0;
+  padding-block: 0;
+}
+
+main .hero-container:has(.fullwidth) {
+  padding-inline: 0;
 }
 
 main .hero-wrapper:has(.centered-section-gray) {
@@ -24,16 +28,6 @@ main .hero-wrapper:has(.centered-section-white) {
   min-height: 300px;
 }
 
-.hero.fullwidth {
-  margin-inline: 0;
-}
-
-.hero.centered,
- .hero.centered-section-gray,
- .hero.centered-section-black,
- .hero.centered-section-white {
-  margin-inline: 128px;
-}
 
 .hero h1 {
   position: relative;

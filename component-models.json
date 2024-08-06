@@ -187,9 +187,9 @@
       {
         "component": "select",
         "name": "classes",
-        "value": "fullwidth",
-        "label": "Variant",
-        "description": "Different variants for the hero section",
+        "value": "centered",
+        "label": "Hero Variant",
+        "description": "Different variants of hero block",
         "valueType": "string",
         "options": [
           {
