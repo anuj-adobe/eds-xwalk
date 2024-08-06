@@ -201,16 +201,16 @@
               "value": "centered"
           },
           {
-              "name": "centered-bg-gray",
-              "value": "centered-bg-gray"
+              "name": "centered-section-gray",
+              "value": "centered-section-gray"
           },
           {
-             "name": "centered-bg-black",
-             "value": "centered-bg-black"
+             "name": "centered-section-black",
+             "value": "centered-section-black"
           },
           {
-             "name": "centered-bg-white",
-             "value": "centered-bg-white"
+             "name": "centered-section-white",
+             "value": "centered-section-white"
           }
         ]
       }

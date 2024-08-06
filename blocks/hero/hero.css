@@ -6,6 +6,18 @@ main .hero-container {
   padding: 0;
 }
 
+main .hero-wrapper:has(.centered-section-gray) {
+  background-color: var(--light-color);
+}
+
+main .hero-wrapper:has(.centered-section-black) {
+  background-color: black;
+}
+
+main .hero-wrapper:has(.centered-section-white) {
+  background-color: white;
+}
+
 .hero {
   position: relative;
   padding: 32px;
@@ -21,18 +33,6 @@ main .hero-container {
  .hero.centered-bg-black,
  .hero.centered-bg-white {
   margin-inline: 128px;
-}
-
-.hero.centered-bg-gray {
-  background-color: gray;
-}
-
-.hero.centered-bg-black {
-  background-color: black;
-}
-
-.hero.centered-bg-gray {
-  background-color: white;
 }
 
 .hero h1 {
