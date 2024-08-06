@@ -186,9 +186,10 @@
       },
       {
         "component": "select",
-        "name": "type",
+        "name": "classes",
         "value": "fullwidth",
-        "label": "Type",
+        "label": "Variant",
+        "description": "Hero Block Variant",
         "valueType": "string",
         "options": [
           {
